@@ -1,0 +1,21 @@
+_schema-version: "2.1"
+ID: SDI_PRD
+version: 0.0.1
+modules:
+- name: db
+  type: hdb
+  path: db
+  requires:
+  - name: SCH_SDI_PRD
+  - name: hdi_db
+    properties:
+      TARGET_CONTAINER: ~{hdi-container-name}
+resources:
+- name: hdi_db
+  type: com.sap.xs.hdi-container
+  properties:
+    hdi-container-name: ${service-name}
+- name: SCH_SDI_PRD
+  type: org.cloudfoundry.existing-service
+  parameters:
+    service-name: UPS_SDI_PRD

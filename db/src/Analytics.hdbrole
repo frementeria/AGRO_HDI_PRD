@@ -1,0 +1,12 @@
+{
+    "role": {
+        "name": "SDI_PRD::analytics",
+        "schema_privileges": [
+            {
+                "privileges": [
+                    "SELECT"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "SDI_PRD::VT_RS_NRIV": {
+    "target": {
+      "object": "VT_RS_NRIV",
+      "schema": "SCH_SDI_PRD"
+    }
+  },
+  "SDI_PRD::VT_RS_TNROT": {
+    "target": {
+      "object": "VT_RS_TNROT",
+      "schema": "SCH_SDI_PRD"
+    }
+  },
+  "SDI_PRD::VT_RS_ZBC_NRIV": {
+    "target": {
+      "object": "VT_RS_ZBC_NRIV",
+      "schema": "SCH_SDI_PRD"
+    }
+  },
+  "SDI_PRD::VT_RS_ZBC_NRIV_ADM": {
+    "target": {
+      "object": "VT_RS_ZBC_NRIV_ADM",
+      "schema": "SCH_SDI_PRD"
+    }
+  }
+}
